@@ -25,7 +25,7 @@ Example  JWT
 ------------
 
 The  example signed JWT (JWS) contains infromation about the _Cardiac Risk App_ OAuth2 application and is signed by _nate-trust.org_.
-The JWS is signed with a private key using the `RS256 Algorithm`.  If an x509 certificate is used for signing, then the corresponding public certificate shall be hosted at `https://nate-trust.org/.welknown/poet.pem`.  If a bare key iss used, the corresponding public key shall be hosted at `https://nate-trust.org/.welknown/poet.jwks`.  
+The JWS is signed with a private key using the `RS256 Algorithm`.  If an x509 certificate is used for signing, then the corresponding public certificate shall be hosted at `https://nate-trust.org/.well-known/poet.pem`.  If a bare key iss used, the corresponding public key shall be hosted at `https://nate-trust.org/.well-known/poet.jwks`.  
 
 
 Example Header
